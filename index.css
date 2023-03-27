@@ -1,0 +1,90 @@
+:root {
+  --color-fg: #24292f;
+  --color-bg: #fff;
+  --color-border: hsla(210, 18%, 87%, 1);
+  --paragraph-border: #d2dcdc;
+  --shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.1);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+main {
+  max-width: 40em;
+  margin-inline: auto;
+  padding-inline: 2em;
+}
+
+h1 {
+  margin: 2rem 0;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--color-border);
+}
+
+#details-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  padding-bottom: 2em;
+}
+
+details {
+  width: 100%;
+  box-shadow: var(--shadow);
+  border-radius: 0.25em;
+}
+
+details > summary,
+details > p {
+  padding: 1.25em;
+  cursor: pointer;
+}
+
+details > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+details > summary svg {
+  transform: rotate(90deg);
+  transition: transform 0.25s ease;
+}
+
+details[open] > summary svg {
+  transform: rotate(0);
+}
+
+details > p {
+  margin: 0;
+  border-top: 1px solid;
+  border-color: var(--paragraph-border);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-fg: #c9d1d9;
+    --color-bg: #0d1117;
+    --color-border: #21262d;
+    --paragraph-border: #21262d;
+    --shadow: 0 0px 1px hsla(0, 100%, 100%, 0.5),
+      0 0px 2px hsla(0, 100%, 100%, 0.4);
+  }
+}
