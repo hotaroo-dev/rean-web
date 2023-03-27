@@ -85,6 +85,6 @@ function getDetail(q) {
           /></svg
       ></span>
     </summary>
-    <p lang="km">${q.anwser || "There's no anwser yet."}</p>
+    <p>${q.anwser || "There's no anwser yet."}</p>
   `;
 }
