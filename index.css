@@ -106,7 +106,7 @@ pre {
 
 pre > code {
   color: var(--color-code);
-  word-break: break-all;
+  word-break: normal;
   white-space: pre;
 }
 
