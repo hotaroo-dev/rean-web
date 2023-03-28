@@ -1,7 +1,7 @@
 const questions = [
   {
     question:
-      "01. តើ Web Application សិក្សាពីអ្វី? មានប្រយោជន៍ធ្វើអ្វី? ហើយវាខុសគ្នាដូចម្ដេចរវាង Web Dynamic Client and Web Dynamic Server?",
+      "01. តើ Web Application សិក្សាពីអ្វី? មានប្រយោជន៍ធ្វើអ្វី? ហើយវាខុសគ្នាដូចម្ដេចរវាង Web Dynamic Client and Dynamic Server?",
     answer: [],
   },
   {
