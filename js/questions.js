@@ -111,7 +111,7 @@ echo &quot;Hello, &quot; . $user-&gt;getName(). &quot;! You are &quot;. $user-&g
   },
   {
     question:
-      "14. សន្មតថាក្នុង Folder មួួយមាន File រូបភាពចំនួន n ។ ចូរសរសេរ​ Code PHP ដើម្បីរៀប​ File ទាំងនេះឲ្យវាបង្ហាញលើ screen។",
+      "14. សន្មតថាក្នុង Folder មួួយមាន File រូបភាពចំនួន N។ ចូរសរសេរ​ Code PHP ដើម្បីរៀប​ File ទាំងនេះឲ្យវាបង្ហាញលើ screen។",
     answer: [
       "scandir - List files and directories inside the specified path.",
       "is_dir - Tells whether the filename is a directory.",
