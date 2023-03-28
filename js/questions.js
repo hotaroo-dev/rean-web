@@ -1,32 +1,32 @@
 const questions = [
   {
     question:
-      "01. តើ web application សិក្សាពីអ្វី? មានប្រយោជន៍ធ្វើអ្វី? ហើយវាខុសគ្នាដូចម្ដេចរវាង web dynamic client and dynamic server?",
+      "01. តើ Web Application សិក្សាពីអ្វី? មានប្រយោជន៍ធ្វើអ្វី? ហើយវាខុសគ្នាដូចម្ដេចរវាង Web Dynamic Client and Web Dynamic Server?",
     answer: [],
   },
   {
-    question: "02. ចូរនិយាយពីដំណើរការ process របស់ web dynamic server?",
+    question: "02. ចូរនិយាយពីដំណើរការ process របស់ Web Dynamic Server?",
     answer: [],
   },
   {
-    question: "03. អ្វីទៅជា web server? មានប្រយោជន៍ធ្វើអ្វី?",
+    question: "03. អ្វីទៅជា Web Server? មានប្រយោជន៍ធ្វើអ្វី?",
     answer: [],
   },
   {
-    question: "04. អ្វីទៅជា Database server? មានប្រយោជន៍ធ្វើអ្វី?",
+    question: "04. អ្វីទៅជា Database Server? មានប្រយោជន៍ធ្វើអ្វី?",
     answer: [],
   },
   {
     question:
-      "05. តើ PHP ជាអ្វី? មានប្រយោជន៍ធ្វើអ្វី? ប្រាប់ពី Software ដែលអាចឲ្យ Run PHP បាន។",
+      "05. តើ PHP ជាអ្វី? មានប្រយោជន៍ធ្វើអ្វី? ប្រាប់ពី Software ដែលអាចឲ្យ run PHP បាន។",
     answer: [],
   },
   {
-    question: "06. ឲ្យទម្រង់ទូទៅក្នុងការ develop PHP Web Application។",
+    question: "06. ឲ្យទម្រង់ទូទៅក្នុងការ Develop PHP Web Application។",
     answer: [],
   },
   {
-    question: "07. ចូរប្រាប់ពីលក្ខណៈពិសេសរបស់ variable ក្នុង PHP?",
+    question: "07. ចូរប្រាប់ពីលក្ខណៈពិសេសរបស់ Variable ក្នុង PHP?",
     answer: [],
   },
   {
@@ -55,7 +55,7 @@ $array = array(
 );`,
   },
   {
-    question: "09. ចូរប្រាប់ពីរបៀបបង្កើត function ដោយលើកឧទាហរណ៍បញ្ជាក់ផង។",
+    question: "09. ចូរប្រាប់ពីរបៀបបង្កើត Function ដោយលើកឧទាហរណ៍បញ្ជាក់ផង។",
     answer: [],
     code: `// Defining function
 function sum($num1, $num2){
@@ -67,7 +67,7 @@ function sum($num1, $num2){
 echo sum(5, 10); // Outputs: 15`,
   },
   {
-    question: "10. ចូរប្រាប់ពីរបៀបបង្កើត class ដោយលើកឧទាហរណ៍បញ្ជាក់ផង។",
+    question: "10. ចូរប្រាប់ពីរបៀបបង្កើត Class ដោយលើកឧទាហរណ៍បញ្ជាក់ផង។",
     answer: [],
     code: `// user.php
 class User {
@@ -97,21 +97,21 @@ echo &quot;Hello, &quot; . $user-&gt;getName(). &quot;! You are &quot;. $user-&g
   },
   {
     question:
-      "11. ប្រាប់ពីរបៀបប្រើ function 'include' and 'include once' ដោយបង្ហាញពីភាពខុសគ្នារបស់វា។",
+      "11. ប្រាប់ពីរបៀបប្រើ Function 'include' and 'include once' ដោយបង្ហាញពីភាពខុសគ្នារបស់វា។",
     answer: [],
   },
   {
     question:
-      "12. ចូរប្រាប់របៀបរក្សាទិន្នន័យនៅលើ​ web ជាមួួយ cookies, session, file IO and database។ រួចបង្ហាញពីភាពខុសគ្នារបស់វា។",
+      "12. ចូរប្រាប់របៀបរក្សាទិន្នន័យនៅលើ​ Web ជាមួួយ Cookies, Session, File IO and Database។ រួចបង្ហាញពីភាពខុសគ្នារបស់វា។",
     answer: [],
   },
   {
-    question: "13. អ្វីទៅដែលហៅថា upload file? លើកឧទាហរណ៍ពីការ upload file។",
+    question: "13. អ្វីទៅដែលហៅថា Upload File? លើកឧទាហរណ៍ពីការ Upload File។",
     answer: [],
   },
   {
     question:
-      "14. សន្មតថាក្នុង folder មួួយមាន file picture ចំនួន n ។ ចូរសរសេរ​ code PHP ដើម្បីរៀប​ file ទាំងនេះឲ្យវាបង្ហាញលើ screen។",
+      "14. សន្មតថាក្នុង Folder មួួយមាន File រូបភាពចំនួន n ។ ចូរសរសេរ​ Code PHP ដើម្បីរៀប​ File ទាំងនេះឲ្យវាបង្ហាញលើ screen។",
     answer: [
       "scandir - List files and directories inside the specified path.",
       "is_dir - Tells whether the filename is a directory.",
@@ -145,7 +145,7 @@ foreach ($files as $file) {
   },
   {
     question:
-      "15. ចូរសរសេរ function ក្នុង php ដើម្បីអោយគេធានាបាន​ក្នុងការ upload file បានតែជាប្រភេទ file powerpoint ដែលមានទំហំ &lt;= 10MB។",
+      "15. ចូរសរសេរ Function ក្នុង PHP ដើម្បីអោយគេធានាបាន​ក្នុងការ Upload File បានតែជាប្រភេទ File PowerPoint ដែលមានទំហំ &lt;= 10MB។",
     answer: [""],
     code: `// upload.php
 &lt;?php
