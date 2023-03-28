@@ -153,11 +153,11 @@ $uploadDirectory = &quot;./uploads/&quot;;
 
 $errors = [];
 
-$fileExtensionAllowed = 'pptx';
+$fileExtensionsAllowed = [&quot;pptx&quot;, &quot;ppt&quot;];
 
-$fileName = $_FILES['file']['name'];
-$fileTmpName  = $_FILES['file']['tmp_name'];
-$fileSize = $_FILES['file']['size'];
+$fileName = $_FILES[&quot;file&quot;][&quot;name&quot;];
+$fileTmpName  = $_FILES[&quot;file&quot;][&quot;tmp_name&quot;];
+$fileSize = $_FILES[&quot;file&quot;][&quot;size&quot;];
 $fileExtension = strtolower(end(explode('.', $fileName)));
 
 $uploadPath = $uploadDirectory . basename($fileName);
@@ -171,8 +171,8 @@ if ($_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST&quot;) {
     $errors[] = &quot;File exceeds maximum size (10MB)&quot;;
   }
 
-  if ($fileExtension != $fileExtensionAllowed) {
-    $errors[] = &quot;This file extension is not allowed. Please upload a PPTX file&quot;;
+  if (!in_array($fileExtension, $fileExtensionsAllowed)) {
+    $errors[] = &quot;This file extension is not allowed. Please upload a PPTX or PPT file&quot;;
   }
 
   if (!empty($errors)) {
