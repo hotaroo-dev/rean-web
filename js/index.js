@@ -24,12 +24,14 @@ function getDetail(q) {
             /></svg
         ></span>
       </summary>
-      <p>${
-        q.answer.length > 0
-          ? q.answer.map((text) => `<span>${text}</span>`).join("")
-          : "There's no anwser yet."
-      }</p>
-      ${q.code ? `<pre><code>${q.code}</code></pre>` : ""}
+      <div class="content">
+        <p>${
+          q.answer.length > 0
+            ? q.answer.map((text) => `<span>${text}</span>`).join("")
+            : "There's no anwser yet."
+        }</p>
+        ${q.code ? `<pre><code>${q.code}</code></pre>` : ""}
+      </div>
     </details>
   `;
 }

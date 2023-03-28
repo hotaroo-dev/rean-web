@@ -146,7 +146,7 @@ foreach ($files as $file) {
   {
     question:
       "15. ចូរសរសេរ Function ក្នុង PHP ដើម្បីអោយគេធានាបាន​ក្នុងការ Upload File បានតែជាប្រភេទ File PowerPoint ដែលមានទំហំ &lt;= 10MB។",
-    answer: [""],
+    answer: ["Code"],
     code: `// upload.php
 &lt;?php
 $uploadDirectory = &quot;./uploads/&quot;;
