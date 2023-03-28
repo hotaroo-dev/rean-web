@@ -2,6 +2,8 @@
   --color-fg: #24292f;
   --color-bg: #fff;
   --color-border: hsla(210, 18%, 87%, 1);
+  --color-pre: #f6f8fa;
+  --color-code: #52525b;
   --paragraph-border: #d2dcdc;
   --shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.1);
 }
@@ -19,6 +21,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 svg {
@@ -26,7 +30,8 @@ svg {
 }
 
 main {
-  max-width: 40em;
+  font-size: 16px;
+  max-width: 48em;
   margin-inline: auto;
   padding-inline: 2em;
 }
@@ -40,7 +45,7 @@ h1 {
 #details-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 1.3em;
+  gap: 1.25em;
   padding-bottom: 2em;
 }
 
@@ -80,6 +85,25 @@ details > p {
   margin: 0;
   border-top: 1px solid;
   border-color: var(--paragraph-border);
+  display: grid;
+  gap: 1em;
+}
+
+pre {
+  margin: 1.25rem;
+  margin-top: 0;
+  padding: 1rem;
+  font-size: 85%;
+  line-height: 1.45;
+  border-radius: 6px;
+  overflow: auto;
+  background-color: var(--color-pre);
+}
+
+pre > code {
+  color: var(--color-code);
+  word-break: break-all;
+  white-space: pre;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -87,6 +111,8 @@ details > p {
     --color-fg: #c9d1d9;
     --color-bg: #0d1117;
     --color-border: #21262d;
+    --color-pre: #161b22;
+    --color-code: #ffedd5;
     --paragraph-border: #21262d;
     --shadow: 0 0px 1px hsla(0, 100%, 100%, 0.5),
       0 0px 2px hsla(0, 100%, 100%, 0.4);
