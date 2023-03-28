@@ -53,8 +53,8 @@ class Accordion {
         height: [startHeight, endHeight],
       },
       {
-        duration: 350,
-        easing: "ease-out",
+        duration: 300,
+        easing: "cubic-bezier(0.250, 0.460, 0.450, 0.940)",
       }
     );
 
@@ -96,8 +96,8 @@ class Accordion {
         height: [startHeight, endHeight],
       },
       {
-        duration: 350,
-        easing: "ease-in",
+        duration: 300,
+        easing: "cubic-bezier(0.550, 0.085, 0.680, 0.530)",
       }
     );
     // When the animation is complete, call onAnimationFinish()
