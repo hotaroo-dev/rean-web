@@ -1,4 +1,4 @@
-const questions = [
+export const questions = [
   {
     question:
       "01. តើ Web Application សិក្សាពីអ្វី? មានប្រយោជន៍ធ្វើអ្វី? ហើយវាខុសគ្នាដូចម្ដេចរវាង Web Dynamic Client and Dynamic Server?",
@@ -180,7 +180,7 @@ if ($_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST&quot;) {
     foreach ($errors as $error) {
       echo $error;
     }
-    die();
+    exit;
   }
 
   if (move_uploaded_file($fileTmpName, $uploadPath)) {

@@ -5,9 +5,8 @@
   --color-pre: #f6f8fa;
   --color-code: #3f3f46;
   --paragraph-border: #d2dcdc;
-  --shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.1);
-  --colored-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.5),
-    0 1px 2px hsla(0, 0%, 0%, 0.5);
+  --shadow: 0 0px 1px hsla(0, 0%, 0%, 0.5), 0 0px 2px hsla(0, 0%, 0%, 0.4);
+  --colored-shadow: 0 0px 1px hsla(0, 0%, 0%, 1), 0 0px 2px hsla(0, 0%, 0%, 0.9);
 }
 
 html {
@@ -16,8 +15,7 @@ html {
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+  min-height: 100vh;
   color: var(--color-fg);
   background-color: var(--color-bg);
 }

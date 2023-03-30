@@ -1,4 +1,4 @@
-class Accordion {
+export class Accordion {
   constructor(el) {
     // Store the <details> element
     this.el = el;
@@ -118,7 +118,3 @@ class Accordion {
     this.el.style.height = this.el.style.overflow = "";
   }
 }
-
-document.querySelectorAll("details").forEach((el) => {
-  new Accordion(el);
-});

@@ -1,3 +1,6 @@
+import { questions } from "./questions.js";
+import { Accordion } from "./accordion.js";
+
 const detailWrapper = document.getElementById("details-wrapper");
 
 let details = "";
@@ -5,6 +8,10 @@ questions.forEach((q) => {
   details += getDetail(q);
 });
 detailWrapper.innerHTML = details;
+
+document.querySelectorAll("details").forEach((el) => {
+  new Accordion(el);
+});
 
 function getDetail(q) {
   return `
