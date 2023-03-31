@@ -5,8 +5,8 @@
   --color-pre: #f6f8fa;
   --color-code: #3f3f46;
   --paragraph-border: #d2dcdc;
-  --shadow: 0 0px 1px hsla(0, 0%, 0%, 0.5), 0 0px 2px hsla(0, 0%, 0%, 0.4);
-  --colored-shadow: 0 0px 1px hsla(0, 0%, 0%, 1), 0 0px 2px hsla(0, 0%, 0%, 0.9);
+  --shadow: 0 0px 1px hsla(0, 0%, 0%, 0.6), 0 0px 1px hsla(0, 0%, 0%, 0.5);
+  --colored-shadow: 0 0px 1px hsla(0, 0%, 0%, 1), 0 0px 1px hsla(0, 0%, 0%, 0.9);
 }
 
 html {
@@ -116,10 +116,10 @@ pre > code {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-fg: #c9d1d9;
-    --color-bg: #0d1117;
+    --color-fg: #e4e4e4;
+    --color-bg: #111010;
     --color-border: #21262d;
-    --color-pre: #161b22;
+    --color-pre: #171717;
     --color-code: #ffedd5;
     --paragraph-border: #21262d;
     --shadow: 0 0px 1px hsla(0, 100%, 100%, 0.5),
