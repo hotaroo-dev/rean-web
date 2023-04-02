@@ -5,8 +5,8 @@
   --color-pre: #f6f8fa;
   --color-code: #3f3f46;
   --paragraph-border: #d2dcdc;
-  --shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px 2px hsla(0, 0%, 0%, 0.1);
-  --colored-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.4), 0 1px 2px 2px hsla(0, 0%, 0%, 0.4);
+  --shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px 0.5px hsla(0, 0%, 0%, 0.1);
+  --colored-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.4), 0 1px 2px 0.5px hsla(0, 0%, 0%, 0.4);
 }
 
 html {
